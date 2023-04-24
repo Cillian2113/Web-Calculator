@@ -20,9 +20,9 @@ code {
 }
 
 .header {
-  padding: 30px;
+  padding: 20px;
   text-align: center;
-  background: #232a54;
+  background: #0e1645;
 }
 
 .header h1 {
@@ -32,7 +32,7 @@ code {
 
 .links {
   overflow: hidden;
-  background-color: #232a54;
+  background-color: #0e1645;
 }
 
 .links a {
@@ -40,7 +40,7 @@ code {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 14px;
   text-decoration: none;
 }
 
@@ -59,8 +59,8 @@ code {
   width: 25%;
   background-color: #f1f1f1;
   padding-left: 20px;
-  margin-bottom: 25px;
-  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 
 }
 
@@ -83,25 +83,16 @@ code {
   clear: both;
 }
 
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 100px;
+  grid-template-rows: 100px 100px 100px;
   gap: 10px;
 }
 
-
-
 .button-79 {
   backface-visibility: hidden;
-  background: #332cf2;
+  background: #0e1645;
   border: 0;
   border-radius: .375rem;
   box-sizing: border-box;

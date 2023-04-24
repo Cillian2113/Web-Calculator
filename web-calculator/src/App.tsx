@@ -22,7 +22,10 @@ function App() {
     <button className="button-79" role="button">Polynomials</button>
     <button className="button-79" role="button">Probability distributions</button>
     <button className="button-79" role="button">Vectors</button>
-</div>
+    <button className="button-79" role="button">Physics</button>
+    <button className="button-79" role="button">Finance</button>
+    <button className="button-79" role="button">Conversion</button>
+    </div>
   </div>
   <div className="rightcolumn">
   <div className="card">
@@ -41,7 +44,7 @@ function App() {
   </div>
 </div>
 <div className="links">
-  <a href="https://github.com/Cillian2113">Github</a>
+  <a href="https://github.com/Cillian2113"><img src={require('./github-logo.png')} /></a>
 </div>
 
 </body>
