@@ -5,7 +5,7 @@ function App() {
   return (
     <html>
 <head>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 </head>
 <body>
 
@@ -13,40 +13,35 @@ function App() {
   <h1>Web Calculator</h1>
   <p></p>
 </div>
-
-
-
 <div className="row">
   <div className="leftcolumn">
     <div className="wrapper">
-    <button className="button-64" role="button"><span className="text">Button 64</span></button>
-    <button className="button-64" role="button"><span className="text">Button 64</span></button>
+    <button className="button-79" role="button">Classic</button>
+    <button className="button-79" role="button">Matrix</button>
+    <button className="button-79" role="button">Simultaneous equations</button>
+    <button className="button-79" role="button">Polynomials</button>
+    <button className="button-79" role="button">Probability distributions</button>
+    <button className="button-79" role="button">Vectors</button>
 </div>
   </div>
   <div className="rightcolumn">
-    <div className="card">
-      <h2>About Me</h2>
+  <div className="card">
+      <h2>Ad 1</h2>
       <div className="fakeimg">Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <p>buy this</p>
     </div>
     <div className="card">
-      <h3>Popular Post</h3>
-      <div className="fakeimg"><p>Image</p></div>
-      <div className="fakeimg"><p>Image</p></div>
+      <h3>Ad 2</h3>
       <div className="fakeimg"><p>Image</p></div>
     </div>
     <div className="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
+      <h3>Ad 3</h3>
+      <p>buy that</p>
     </div>
   </div>
 </div>
-
-<div className="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+<div className="links">
+  <a href="https://github.com/Cillian2113">Github</a>
 </div>
 
 </body>
