@@ -10,21 +10,21 @@ function App() {
 <body>
 
 <div className="header">
-  <h1>Web Calculator</h1>
+  <h1><button className="buttonx title" role="button">Web Calulator</button></h1>
   <p></p>
 </div>
 <div className="row">
   <div className="leftcolumn">
     <div className="wrapper">
-    <button className="button-79" role="button">Classic</button>
-    <button className="button-79" role="button">Matrix</button>
-    <button className="button-79" role="button">Simultaneous equations</button>
-    <button className="button-79" role="button">Polynomials</button>
-    <button className="button-79" role="button">Probability distributions</button>
-    <button className="button-79" role="button">Vectors</button>
-    <button className="button-79" role="button">Physics</button>
-    <button className="button-79" role="button">Finance</button>
-    <button className="button-79" role="button">Conversion</button>
+    <button className="buttonx classic" role="button">Classic</button>
+    <button className="buttonx matrix" role="button">Matrix</button>
+    <button className="buttonx simequations" role="button">Simultaneous equations</button>
+    <button className="buttonx polynomials" role="button">Polynomials</button>
+    <button className="buttonx probability" role="button">Probability distributions</button>
+    <button className="buttonx vectors" role="button">Vectors</button>
+    <button className="buttonx physics" role="button">Physics</button>
+    <button className="buttonx finance" role="button">Finance</button>
+    <button className="buttonx conversion" role="button">Conversion</button>
     </div>
   </div>
   <div className="rightcolumn">

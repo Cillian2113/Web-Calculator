@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
 body {
   padding: 10px;
   background-color: #01000d;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Source Code Pro', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,7 +21,7 @@ code {
 }
 
 .header {
-  padding: 20px;
+  padding: 8px;
   text-align: center;
   background: #0e1645;
 }
@@ -40,7 +41,7 @@ code {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 14px;
+  padding: 10px 10px;
   text-decoration: none;
 }
 
@@ -90,7 +91,7 @@ code {
   gap: 10px;
 }
 
-.button-79 {
+.buttonx {
   backface-visibility: hidden;
   background: #0e1645;
   border: 0;
@@ -99,7 +100,7 @@ code {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: Circular,Helvetica,sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: -.01em;
@@ -118,24 +119,24 @@ code {
 
 }
 
-.button-79:disabled {
+.buttonx:disabled {
   color: #787878;
   cursor: auto;
 }
 
-.button-79:not(:disabled):hover {
+.buttonx:not(:disabled):hover {
   transform: scale(1.05);
 }
 
-.button-79:not(:disabled):hover:active {
+.buttonx:not(:disabled):hover:active {
   transform: scale(1.05) translateY(.125rem);
 }
 
-.button-79:focus {
+.buttonx:focus {
   outline: 0 solid transparent;
 }
 
-.button-79:focus:before {
+.buttonx:focus:before {
   border-width: .125rem;
   content: "";
   left: calc(-1*.375rem);
@@ -146,12 +147,17 @@ code {
   user-select: none;
 }
 
-.button-79:focus:not(:focus-visible) {
+.buttonx:focus:not(:focus-visible) {
   outline: 0 solid transparent;
 }
 
-.button-79:not(:disabled):active {
+.buttonx:not(:disabled):active {
   transform: translateY(.125rem);
+}
+
+.buttonx.title{
+  font-size: 2rem;
+  font-family: 'Source Code Pro', monospace;
 }
 
 @media (min-width: 768px) {
