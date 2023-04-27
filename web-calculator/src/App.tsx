@@ -1,5 +1,9 @@
 import React from 'react';
 import './App.css';
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("your GA measurement id");
+ReactGA.send("pageview");
 
 function App() {
   return (
@@ -8,7 +12,6 @@ function App() {
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 </head>
 <body>
-
 <div className="header">
   <h1><button className="buttonx title" role="button">Web Calulator</button></h1>
   <p></p>
