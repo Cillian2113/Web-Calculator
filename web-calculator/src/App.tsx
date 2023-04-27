@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import ReactGA from "react-ga4";
 
-ReactGA.initialize("your GA measurement id");
+ReactGA.initialize("G-QR20Y9QDY0");
 ReactGA.send("pageview");
 
 function App() {
