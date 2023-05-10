@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
 import ReactGA from "react-ga4";
+import {useState} from 'react';
 
 ReactGA.initialize("G-QR20Y9QDY0");
 ReactGA.send("pageview");
+
+const year = 2023
 
 function App() {
   return (
@@ -48,6 +51,7 @@ function App() {
 </div>
 <div className="links">
   <a href="https://github.com/Cillian2113"><img src={require('./github-logo.png')} /></a>
+  <button>©{year}</button>
 </div>
 
 </body>
